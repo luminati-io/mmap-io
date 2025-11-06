@@ -1,6 +1,6 @@
 {
     "name": "mmap-io",
-    "version": "1.1.7-lum.2",
+    "version": "1.1.7-lum.3",
     "license": "MIT",
     "author": {
         "name": "Oscar Campbell",
@@ -50,7 +50,7 @@
         "watch": "while true; do (npm run build; inotifywait -qre close_write,moved_to --exclude '\\.git' ./src/; ) done;"
     },
     "devDependencies": {
-        "@types/node": "^20.10.3",
+        "@types/node": "^24.11.0",
         "typescript": "^5.3.2",
         "livescript": "^1.6.0"
     },
