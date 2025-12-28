@@ -6,7 +6,7 @@
             "<!(node -e \"require('nan')\")"
         ],
         "cflags_cc": [
-            "-std=c++20"
+            "-std=c++2a"
         ],
         "conditions": [
             [ 'OS=="mac"',
